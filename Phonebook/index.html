@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="./asset/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <title>PhoneBook</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="empty">
+
+        </div>
+
+        <div class="main-form">
+
+            <div class="text-center welcome">
+                <div>
+                    <h3>سلام!</h3>
+                    <br />
+                    <p>به برنامه کوچولوی من خوش اومدی!</p>
+                   
+
+                    
+    
+                </div>
+                <br><br>
+             
+                <button class="btn btn-dark" id="login">ورود</button>
+                
+
+            </div>
+            <div class="ui">
+                <div class="row">
+                    <div class="col-2 menu-item">
+                        <div class="menu">
+
+                            <div> <button id="show-contacts"class=" custom-btn" style=" background-color: #383d41ad">مشاهده مخاطبین</button> </div>
+                            <div> <button id="create-contact" class=" custom-btn" > ایجاد مخاطب </button> </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <div class="help">
+                            <br>
+                            <p>چه کمکی میتونم بهت بکنم؟</p>
+                            
+                        </div>
+
+                        <div class="show">
+                            <table>
+                                <thead>
+                                    <th>شناسه</th>
+                                    <th>نام</th>
+                                    <th>شماره</th>
+                                    <th>ویرایش</th>
+                                    <!-- <th>حذف</th> -->
+                                </thead>
+                                <tbody>
+                                
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                        <div class="create">
+                            <div class="create-head">
+                                <h3>افزودن شماره</h3>
+                            </div>
+                            <br>
+                            <div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="name">نام:</label>
+                                            <br>
+                                            <input id="name" type="text" name="name" autocomplete="off" required>
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="number">شماره تماس:</label>
+                                            <br>
+                                            <input id="number" name="number" type="text" autocomplete="off" required>
+                                            <br>
+                                            <br>
+                                            <br>
+                                            
+                                        </div>
+                                        <div class="text-center" style="    width: 100%;">
+                                            <button class="btn btn-success "  id="create-contactbtn">ایجاد</button>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <br>
+
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+ 
+   
+   
+  
+                    <div class="edit-parent">
+                    
+                        <div class="edit">
+
+                            <div class="edit-head">
+                                <h3>تغییر مشخصات</h3>
+                                <i id="close-modal" class="fa fa-times-circle"></i>
+                            </div>
+                            <div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="name">نام:</label>
+                                            <br>
+                                            <input id="edit-name" type="text" name="edit-name" autocomplete="off">
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="number">شماره تماس:</label>
+                                            <br>
+                                            <input id="edit-number" name="edit-number" type="text" autocomplete="off">
+                                            <br>
+                                            <br>
+                                            <br>
+                                          
+                                            <input name="edit-id" id="edit-id" type="text">
+
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                </div>
+
+  <div class="edit-foot">
+                            <button id="editbtn">ثبت</button>
+                            <button id="deletebtn">حذف</button>
+                            </div>
+
+                        </div>
+                          
+                           
+                        </div>
+                    </div>
+                        
+
+        </div>
+                </div>
+            </div>
+        <br>
+    </div>
+      
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./asset/jquery.min.js"></script>
+    <script src="./asset/app.js"></script>
+    <section class="empty">
+        <p> </p>
+    </section>
+</body>
+
+</html>
